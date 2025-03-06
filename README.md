@@ -1,5 +1,5 @@
 # Шпаргалка про GIT
-[Проект на GiHub] (https://github.com/tochmary/about-git/blob/master/README.md)
+[Проект на GiHub](https://github.com/tochmary/about-git/blob/master/README.md)
 Создан Ларионовой М.А. 06.03.2025
 
 ## Создание репозитория на GitHub
@@ -7,15 +7,21 @@
 * На GitHub уже есть аккаунт
 * Созданы ssh ключи 
 
-1. Создать удаленный репозиторий на GitHub 
+1. Создать удаленный репозиторий на GitHub:
+
 1.1. Зайдите в свой профиль [по ссылке](https://github.com/tochmary), где вместо **tochmary** ваше имя, которое вы указали при регистрации.
+
 1.2. Создайте репозиторий. Для этого перейдите на вкладку Repositories, а затем нажмите на зелёную кнопку New справа.
+
 1.3. Открылось окно создания нового репозитория. Назовите его **about-git**.
+
 1.4. Нажмите на зелёную кнопку Create repository внизу.
-1.5. Запомните url репозитория с типом ssh, например **git@github.com:tochmary/about-git.git**
+
+1.5. Запомните url репозитория с типом ssh, например **git@github.com:tochmary/about-git.git**.
 
 
 2. Создание папки для локального репозитория и необходимых файлов в терминале:
+
 2.1. Перейти в папку для репозиторий
 
 ```bash
@@ -64,4 +70,4 @@ git remote add origin git@github.com:tochmary/about-git.git
 git push -u origin master
 ```
 
-3. Проверить репозиторий на GitHub по ссылке (https://github.com/tochmary/about-git)
+3. Проверить репозиторий на GitHub [по ссылке](https://github.com/tochmary/about-git)
