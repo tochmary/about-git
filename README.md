@@ -7,6 +7,8 @@
 * На GitHub уже есть аккаунт
 * Созданы ssh ключи 
 
+---
+
 1. Создать удаленный репозиторий на GitHub:
 
 1.1. Зайдите в свой профиль [по ссылке](https://github.com/tochmary), где вместо **tochmary** ваше имя, которое вы указали при регистрации.
@@ -19,6 +21,7 @@
 
 1.5. Запомните url репозитория с типом ssh, например **git@github.com:tochmary/about-git.git**.
 
+---
 
 2. Создание папки для локального репозитория и необходимых файлов в терминале:
 
@@ -69,5 +72,18 @@ git remote add origin git@github.com:tochmary/about-git.git
 ```bash
 git push -u origin master
 ```
+---
 
-3. Проверить репозиторий на GitHub [по ссылке](https://github.com/tochmary/about-git)
+3. Проверить репозиторий на GitHub [по ссылке](https://github.com/tochmary/about-git).
+
+---
+
+4. После изменения файлов выполнить в терминале:
+
+```bash
+git status
+git add --all
+git commit -m "Изменения файла1"
+git push 
+```
+---
